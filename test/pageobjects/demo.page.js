@@ -1,6 +1,6 @@
-const Page = require('./page');
+const homePage = require('./home.page');
 
-class demo extends Page{
+class demo extends homePage{
   
     get searchBox(){
         return $('//input[@type="search"]')
