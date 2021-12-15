@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio --spec ./test/specs/demo.js && allure generate allure-results && allure open"
+    "test": "npx wdio --spec ./test/specs/demo.js && allure generate --clean allure-results && allure open"
   },
   "keywords": [],
   "author": "",
